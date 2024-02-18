@@ -10,6 +10,11 @@ import "../styles/Header.css";
 const toggle_menu = () => {
   const menu = document.querySelector("nav");
   menu?.classList.toggle("-translate-x-full");
+  if (menu?.classList.contains("-translate-x-full")) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+  }
 };
 </script>
 
