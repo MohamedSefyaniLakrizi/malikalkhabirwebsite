@@ -8,10 +8,10 @@ import { createRouter, createWebHistory } from "vue-router";
 
 // Define your routes
 const routes = [
-  { path: "/", component: App },
   { path: "/services", component: Services },
   { path: "/a-propos", component: APropos },
   { path: "/booking", component: Booking },
+  { path: "/", component: App },
 ];
 
 // Create the router
