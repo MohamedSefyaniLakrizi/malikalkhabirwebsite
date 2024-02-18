@@ -7,14 +7,16 @@ import facebook from "../assets/facebook.svg";
 import linkedIn from "../assets/linkedIn.svg";
 import "../styles/Header.css";
 
-const toggle_menu = () => {
+const add_menu = () => {
   const menu = document.querySelector("nav");
-  menu?.classList.toggle("-translate-x-full");
-  if (document.body.style.overflow !== "hidden") {
-    document.body.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "auto";
-  }
+  menu?.classList.add("-translate-x-full");
+  document.body.style.overflow = "hidden";
+};
+
+const remove_menu = () => {
+  const menu = document.querySelector("nav");
+  menu?.classList.remove("-translate-x-full");
+  document.body.style.overflow = "auto";
 };
 </script>
 
@@ -23,7 +25,7 @@ const toggle_menu = () => {
     class="bg-transparent md:bg-white h-[115px] w-full flex items-center justify-between md:px-12 relative"
   >
     <img
-      @click="toggle_menu"
+      @click="add_menu"
       class="md:hidden ml-8 z-20"
       :src="hamburger"
       alt="Hamburger Menu"
@@ -40,7 +42,7 @@ const toggle_menu = () => {
     >
       <div class="h-[115px] flex items-center justify-start ml-8">
         <img
-          @click="toggle_menu"
+          @click="remove_menu"
           class="md:hidden"
           :src="close"
           alt="Close Icon"
