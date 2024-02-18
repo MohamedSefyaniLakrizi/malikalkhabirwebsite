@@ -1,6 +1,7 @@
 // main.ts
 import { createApp } from "vue";
 import App from "./App.vue"; // Import your App component
+import Home from "./Home.vue";
 import Services from "./Services.vue"; // Import your Services component
 import APropos from "./APropos.vue"; // Import your APropos component
 import Booking from "./Booking.vue"; // Import your Booking component
@@ -11,7 +12,7 @@ const routes = [
   { path: "/services", component: Services },
   { path: "/a-propos", component: APropos },
   { path: "/booking", component: Booking },
-  { path: "/", component: App },
+  { path: "/", component: Home },
 ];
 
 // Create the router
