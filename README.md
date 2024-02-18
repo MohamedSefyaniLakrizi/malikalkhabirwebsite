@@ -5,15 +5,13 @@ The tech stack used for this website consists of: Vue, Tailwind CSS, Typescript,
 ## 1- Website Design
 
 The website has been designed from scratch using Figma. I started with the brand identity, choosing the different logo's, color pallete, and fonts used for this project as follows
-<div style="  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;">
+<div align="center">
 <img src="https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/63fa4a34-00aa-4654-80f6-3ab2e06182fc" width="400px" />
 </div>
 The next step was to create a design for the website both on mobile and pc views. Here are the mockup that the website was built based on
 
 <div>
+  
 ![site_web_mobile](https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/a271a588-9a37-4032-ac60-d9fb1a8b2913)
 
 ![site_web_pc](https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/1c572074-c497-4563-9a20-14ea8552e021)
