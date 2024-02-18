@@ -1,5 +1,13 @@
 <script setup lang="ts">
-import "./components/Header.vue";
+import { onMounted } from 'vue';
+import Header from './components/Header.vue';
+
+onMounted(() => {
+  const script = document.createElement('script');
+  script.src = 'https://assets.calendly.com/assets/external/widget.js';
+  script.async = true;
+  document.body.appendChild(script);
+});
 </script>
 
 <template>
@@ -10,10 +18,5 @@ import "./components/Header.vue";
     data-url="https://calendly.com/mohamedsefyani"
     style="min-width: 320px; height: 700px"
   ></div>
-  <script
-    type="text/javascript"
-    src="https://assets.calendly.com/assets/external/widget.js"
-    async
-  ></script>
   <!-- Calendly inline widget end -->
 </template>
