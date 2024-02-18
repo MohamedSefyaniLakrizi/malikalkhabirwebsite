@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "malikalkhabir",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
