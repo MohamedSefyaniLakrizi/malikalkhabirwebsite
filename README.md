@@ -12,7 +12,7 @@ The next step was to create a design for the website both on mobile and pc views
 
 <div align="center">
 
-<img src="https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/a271a588-9a37-4032-ac60-d9fb1a8b2913" height="1050px" />
+<img src="https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/a271a588-9a37-4032-ac60-d9fb1a8b2913" height="1080px" />
 
 <img src="https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/1c572074-c497-4563-9a20-14ea8552e021" width="400px" />
 
