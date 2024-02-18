@@ -9,7 +9,7 @@ The website has been designed from scratch using Figma. I started with the brand
 <img src="https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/63fa4a34-00aa-4654-80f6-3ab2e06182fc" width="400px" />
 </div>
 The next step was to create a design for the website both on mobile and pc views. Here are the mockup that the website was built based on
-\n
+<br>
 
 <div align="center">
 
