@@ -9,13 +9,13 @@ import "../styles/Header.css";
 
 const add_menu = () => {
   const menu = document.querySelector("nav");
-  menu?.classList.add("-translate-x-full");
+  menu?.classList.remove("-translate-x-full");
   document.body.style.overflow = "hidden";
 };
 
 const remove_menu = () => {
   const menu = document.querySelector("nav");
-  menu?.classList.remove("-translate-x-full");
+  menu?.classList.add("-translate-x-full");
   document.body.style.overflow = "auto";
 };
 </script>
