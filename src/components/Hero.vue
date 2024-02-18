@@ -39,7 +39,7 @@ const handleCLick = () => {
     </h3>
     <button
       @click="handleCLick"
-      class="px-8 bg-opacity-50 md:bg-opacity-100 md:px-14 py-3 bg-[#D7D8D1] text-2xl mt-4 tracking-wide hover:border-black transition-all duration-300 ease-in-out shadow-xl border-transparent border md:border-[#D7D8D1] rounded-lg"
+      class="px-8 md:px-14 py-3 bg-[#D7D8D1] text-2xl mt-4 tracking-wide hover:border-black transition-all duration-300 ease-in-out shadow-xl border-transparent border md:border-[#D7D8D1] rounded-lg"
     >
       Commencer
     </button>
