@@ -10,11 +10,12 @@ The website has been designed from scratch using Figma. I started with the brand
 </div>
 The next step was to create a design for the website both on mobile and pc views. Here are the mockup that the website was built based on
 
-<div>
-  
-![site_web_mobile](https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/a271a588-9a37-4032-ac60-d9fb1a8b2913)
+<div align="center">
 
-![site_web_pc](https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/1c572074-c497-4563-9a20-14ea8552e021)
+<img src="https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/a271a588-9a37-4032-ac60-d9fb1a8b2913" width="300px" />
+
+<img src="https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/1c572074-c497-4563-9a20-14ea8552e021" width="300px" />
+
 </div>
 
 ## 2- Website functionalities
