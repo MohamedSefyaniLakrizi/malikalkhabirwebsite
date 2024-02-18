@@ -1,18 +1,28 @@
-# Vue 3 + TypeScript + Vite
+# Dr.Malika Lkhabir's Website
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This website has been made for Dr.Malika Lkhabir, a Judge and Psychologist based in Casablanca Morocco. It has been made to allow clients to book appointments with her online without the need to call.
+The tech stack used for this website consists of: Vue, Tailwind CSS, Typescript, Firebase.
+## 1- Website Design
 
-## Recommended IDE Setup
+The website has been designed from scratch using Figma. I started with the brand identity, choosing the different logo's, color pallete, and fonts used for this project as follows
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![Brand Board](https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/63fa4a34-00aa-4654-80f6-3ab2e06182fc)
 
-## Type Support For `.vue` Imports in TS
+The next step was to create a design for the website both on mobile and pc views. Here are the mockup that the website was built based on
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+![site_web_mobile](https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/a271a588-9a37-4032-ac60-d9fb1a8b2913)
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+![site_web_pc](https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/1c572074-c497-4563-9a20-14ea8552e021)
+
+
+## 2- Website functionalities
+
+The website has many functionalities to be a valuable and professional asset for Dr.Lkhabir such as:
+
+### 1- responsive Design
+
+This website is build to be fully responsive for mobile, tablets and small and large computer screens. 
+
+![responsive](https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/c4e55d0b-4463-4982-a617-f404df7523c2)
+
