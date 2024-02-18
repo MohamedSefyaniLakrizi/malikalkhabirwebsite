@@ -30,7 +30,7 @@ const handleCLick = () => {
     class="bg-image -mt-[115px] flex flex-col items-center justify-center h-screen shadow-lg gap-6"
   >
     <h1
-      class="text-[#03045E] text-4xl md:text-8xl text-center font-black w-[70%] md:w-[50%] 2xl:w-[50%] tracking-wide"
+      class="text-[#03045E] text-4xl md:text-6xl 2xl:text-8xl text-center font-black w-[70%] md:w-[50%] 2xl:w-[50%] tracking-wide"
     >
       {{ text }}
     </h1>

@@ -590,12 +590,12 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
+.ml-10 {
+  margin-left: 2.5rem;
 }
 
 .ml-8 {
@@ -628,6 +628,10 @@ video {
 
 .block {
   display: block;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -815,10 +819,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
 }
 
 .px-12 {
@@ -1103,10 +1103,6 @@ video {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
-  .md\:bg-opacity-100 {
-    --tw-bg-opacity: 1;
-  }
-
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1140,13 +1136,25 @@ video {
     line-height: 1;
   }
 
-  .md\:text-8xl {
-    font-size: 6rem;
+  .md\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 
   .md\:text-\[32px\] {
     font-size: 32px;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -1161,6 +1169,10 @@ video {
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:ml-3 {
+    margin-left: 0.75rem;
+  }
+
   .\32xl\:w-\[50\%\] {
     width: 50%;
   }
@@ -1171,6 +1183,11 @@ video {
 
   .\32xl\:gap-\[34px\] {
     gap: 34px;
+  }
+
+  .\32xl\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
   }
 
   .\32xl\:text-xl {

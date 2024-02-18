@@ -12,7 +12,7 @@ import "../styles/C2A.css";
       Reprenez le contrôle sur votre vie
     </h1>
     <a
-      href="/services"
+      href="/booking"
       class="border border-[#2D2D4D] text-[#2D2D4D] md:text-3xl font-medium px-5 py-2 md:px-12 md:py-3 hover:bg-[#2D2D4D] hover:text-white rounded-xl md:rounded-none duration-300 ease-in-out transition-all"
     >
       <button>Prendre rendez-vous</button>

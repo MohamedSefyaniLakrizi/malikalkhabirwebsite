@@ -38,7 +38,7 @@ const remove_menu = () => {
       <img :src="logo_large" alt="Main Logo" />
     </a>
     <nav
-      class="absolute h-screen w-full list-none transform -translate-x-full duration-300 bg-white md:h-auto md:w-auto md:translate-x-0 md:bg-transparent top-0 z-50 md:static md:flex md:gap-5 2xl:gap-[34px] items-center 2xl:text-xl"
+      class="absolute h-screen w-full list-none transform -translate-x-full duration-300 bg-white md:h-auto md:w-auto md:translate-x-0 md:bg-transparent top-0 z-50 md:static md:flex md:gap-5 2xl:gap-[34px] items-center md:text-sm xl:text-base 2xl:text-xl"
     >
       <div class="h-[115px] flex items-center justify-start ml-8">
         <img
@@ -48,17 +48,23 @@ const remove_menu = () => {
           alt="Close Icon"
         />
       </div>
-      <li class="ml-3 px-5 py-3 border-b border-gray-300 md:border-b-0">
+      <li
+        class="ml-1 2xl:ml-3 px-5 py-3 border-b border-gray-300 md:border-b-0"
+      >
         <a href="/">Accueil</a>
       </li>
-      <li class="ml-3 px-5 py-3 border-b border-gray-300 md:border-b-0">
+      <li
+        class="ml-1 2xl:ml-3 px-5 py-3 border-b border-gray-300 md:border-b-0"
+      >
         <a href="/a-propos">à propos</a>
       </li>
-      <li class="ml-3 px-5 py-3 border-b border-gray-300 md:border-b-0">
+      <li
+        class="ml-1 2xl:ml-3 px-5 py-3 border-b border-gray-300 md:border-b-0"
+      >
         <a href="/services">services</a>
       </li>
-      <li class="ml-3 px-5 py-2 bg-[#2D2D4D] text-white">
-        <a>Prendre rendez-vous</a>
+      <li class="ml-1 2xl:ml-3 px-5 py-2 bg-[#2D2D4D] text-white">
+        <a href="/booking">Prendre rendez-vous</a>
       </li>
       <li class="absolute block bottom-[10%] ml-8 md:hidden">
         <p>Adresse: 1, Quartier Maarif, Casablanca.</p>
