@@ -1,5 +1,8 @@
 # Dr.Malika Lkhabir's Website
 
+![website](https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/2d50e515-c979-4cc6-8668-15f71c6ce433)
+
+
 This website has been made for Dr.Malika Lkhabir, a Judge and Psychologist based in Casablanca Morocco. It has been made to allow clients to book appointments with her online without the need to call.
 The tech stack used for this website consists of: Vue, Tailwind CSS, Typescript, Firebase.
 ## 1- Website Design
