@@ -21,7 +21,7 @@ onUnmounted(() => {
 });
 
 const handleCLick = () => {
-  window.location.href = "/services";
+  window.location.href = "/booking";
 };
 </script>
 
@@ -31,6 +31,7 @@ const handleCLick = () => {
   >
     <h1
       class="text-[#03045E] text-4xl md:text-6xl 2xl:text-8xl text-center font-black w-[70%] md:w-[50%] 2xl:w-[50%] tracking-wide"
+      v-motion-slide-top
     >
       {{ text }}
     </h1>
@@ -40,6 +41,7 @@ const handleCLick = () => {
     <button
       @click="handleCLick"
       class="px-8 md:px-14 py-3 bg-[#D7D8D1] text-2xl mt-4 tracking-wide hover:border-black transition-all duration-300 ease-in-out shadow-xl border-transparent border md:border-[#D7D8D1] rounded-lg"
+      v-motion-slide-top
     >
       Commencer
     </button>

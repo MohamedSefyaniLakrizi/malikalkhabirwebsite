@@ -3,7 +3,7 @@ import en_savoir_plus_image from "../assets/en_savoir_plus_image.png";
 </script>
 
 <template>
-  <div class="w-full flex justify-center my-16">
+  <div class="w-full flex justify-center my-16" v-motion-slide-visible-once-top>
     <div
       class="flex flex-col md:flex-row gap-5 justify-center items-center esp:w-auto"
     >

@@ -6,7 +6,10 @@ import probleme_de_couple from "../assets/probleme_de_couple.png";
 </script>
 
 <template>
-  <div class="mt-10 border-t-2 border-opacity-70 border-black">
+  <div
+    class="mt-10 border-t-2 border-opacity-70 border-black"
+    v-motion-slide-visible-once-top
+  >
     <div class="flex justify-center mt-10">
       <h1 class="font-semibold text-5xl">Spécialités</h1>
     </div>

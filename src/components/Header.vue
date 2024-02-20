@@ -51,17 +51,17 @@ const remove_menu = () => {
       <li
         class="ml-1 2xl:ml-3 px-5 py-3 border-b border-gray-300 md:border-b-0"
       >
-        <a href="/">Accueil</a>
+        <a href="/" class="nav-item">Accueil</a>
       </li>
       <li
         class="ml-1 2xl:ml-3 px-5 py-3 border-b border-gray-300 md:border-b-0"
       >
-        <a href="/a-propos">à propos</a>
+        <a href="/a-propos" class="nav-item">à propos</a>
       </li>
       <li
         class="ml-1 2xl:ml-3 px-5 py-3 border-b border-gray-300 md:border-b-0"
       >
-        <a href="/services">services</a>
+        <a href="/services" class="nav-item">services</a>
       </li>
       <li class="ml-1 2xl:ml-3 px-5 py-2 bg-[#2D2D4D] text-white">
         <a href="/booking">Prendre rendez-vous</a>

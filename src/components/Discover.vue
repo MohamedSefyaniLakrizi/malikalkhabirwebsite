@@ -45,6 +45,7 @@ const truncatedText = computed(() => {
   >
     <div
       class="h-auto md:w-full flex flex-col md:flex-row justify-center items-center md:items-start gap-8 py-16 md:pt-10"
+      v-motion-slide-visible-once-top
     >
       <img class="w-[90%] md:w-auto" :src="image_portrait" alt="Portrait" />
       <div

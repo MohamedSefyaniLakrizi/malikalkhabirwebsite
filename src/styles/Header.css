@@ -1,1 +1,31 @@
+@media (min-width: 768px) {
+  .nav-item {
+    position: relative;
+    display: inline-block;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+  }
 
+  .nav-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .nav-item::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #333;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .nav-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}

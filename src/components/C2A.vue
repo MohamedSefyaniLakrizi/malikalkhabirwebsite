@@ -8,12 +8,14 @@ import "../styles/C2A.css";
   >
     <h1
       class="w-[80%] md:w-full text-2xl md:text-5xl font-semibold text-center text-[#282152]"
+      v-motion-slide-visible-once-top
     >
       Reprenez le contrôle sur votre vie
     </h1>
     <a
       href="/booking"
       class="border border-[#2D2D4D] text-[#2D2D4D] md:text-3xl font-medium px-5 py-2 md:px-12 md:py-3 hover:bg-[#2D2D4D] hover:text-white rounded-xl md:rounded-none duration-300 ease-in-out transition-all"
+      v-motion-slide-visible-once-top
     >
       <button>Prendre rendez-vous</button>
     </a>

@@ -6,7 +6,7 @@ import Services from "./Services.vue"; // Import your Services component
 import APropos from "./APropos.vue"; // Import your APropos component
 import Booking from "./Booking.vue"; // Import your Booking component
 import { createRouter, createWebHistory } from "vue-router";
-
+import { MotionPlugin } from "@vueuse/motion";
 // Define your routes
 const routes = [
   { path: "/services", component: Services },
@@ -22,4 +22,8 @@ const router = createRouter({
 });
 
 // Create and mount the app
-createApp(App).use(router).mount("#app");
+const app = createApp(App);
+app.use(router);
+app.use(MotionPlugin);
+
+app.mount("#app");

@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div
     class="flex items-center justify-center py-[60px] border-b border-gray-300 md:border-transparent"
@@ -12,3 +10,5 @@
     </p>
   </div>
 </template>
+
+<script setup lang="ts"></script>
