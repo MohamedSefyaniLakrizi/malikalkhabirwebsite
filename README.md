@@ -29,3 +29,11 @@ This website is build to be fully responsive for mobile, tablets and small and l
 
 ![responsive](https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/c4e55d0b-4463-4982-a617-f404df7523c2)
 
+### 2- booking service
+
+You can book an appointment using the calendly API on the booking page.
+
+![booking](https://github.com/MohamedSefyaniLakrizi/malikalkhabirwebsite/assets/102101395/fa3e53b8-35a7-4458-ae6c-d4862ebf70dd)
+
+
+
